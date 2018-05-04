@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Контакты</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-logo"></div>
+      <div class="header-content">
+        <div class="header-tokens"><i class="fas fa-fw fa-gem"></i><span>Ваши токены:</span><span class="header-tokens__val">0.0000 SMART</span></div>
+        <div class="header-nav">
+          <div class="header-user">Пользователь</div>
+          <div class="header-lang">
+            <div class="header-flag header-flag--rus"></div><span class="header-lang__item">Русский</span>
+          </div>
+          <div class="header-account"><i class="fas fa-fw fa-user"></i><span class="header-user__login">deh222@yandex.ru</span></div>
+        </div>
+      </div>
+      <div class="burger"><a href="#" class="toggle-mnu"><span></span></a></div>
+    </header>
+    <!-- Здесь пишем код-->
+    <div class="wrapper">
+      <aside class="sidebar shadow">
+        <ul class="menu menu-main">
+          <li><a href="#"><i class="fas fa-shopping-cart"></i>Покупка токена</a></li>
+          <li><a href="#"><i class="fas fa-briefcase"></i>Мои инвестиции</a></li>
+          <li><a href="#"><i class="fa fa-fw fa-globe"></i>Реферальная программа</a></li>
+          <li><a href="#"><i class="fas fa-fw fa-question-circle"></i>Помощь</a></li>
+          <li><a href="#"><i class="fas fa-fw fa-phone-square"></i>Контакты</a></li>
+        </ul>
+        <ul class="menu menu-secondary">
+          <li><a href="#"><i class="fas fa-sliders-h"></i>Панель ICO</a></li>
+          <li><a href="#"><i class="fas fa-briefcase"></i>Менеджеры</a></li>
+          <li><a href="#"><i class="fas fa-users"></i> Пользователи</a></li>
+          <li><a href="#"><i class="fas fa-shopping-cart"></i>Платежи</a></li>
+          <li><a href="#"><i class="fas fa-cog"></i>Настройки</a></li>
+          <li><a href="#"><i class="far fa-flag"></i>Языки</a></li>
+          <li><a href="#"><i class="fas fa-eye-slash"></i>Пользовательский CSS</a></li>
+        </ul>
+      </aside>
+      <main>
+        <div class="tokens-buy">Перед покупкой токенов пройдите <a href="#">верификацию.</a></div>
+        <div class="page-content">
+          <div class="page-content__inner page-content__inner--contacts">
+            <h1>Контакты</h1>
+            <div class="contacts">
+              <div class="contacts-left">
+                <div class="contacts-block shadow">
+                  <div class="contacts-icon">
+                        <svg class="icon icon-telephone ">
+                          <use xlink:href="img/icons-svg/symbol/sprite.svg#telephone"></use>
+                        </svg>
+                  </div>
+                  <div class="contacts-info">
+                    <div class="contacts-info__title">телефон</div><a href="tel:88002223468" class="contacts-info__val contacts-info__val--phone">8 800 222 34 68</a>
+                  </div>
+                </div>
+                <div class="contacts-block shadow">
+                  <div class="contacts-icon">
+                        <svg class="icon icon-contact ">
+                          <use xlink:href="img/icons-svg/symbol/sprite.svg#contact"></use>
+                        </svg>
+                  </div>
+                  <div class="contacts-info">
+                    <div class="contacts-info__title">e-mail</div><a href="mailto:info@smartcontract.ru" class="contacts-info__val">info@smartcontract.ru</a>
+                  </div>
+                </div>
+                <div class="contacts-block shadow">
+                  <div class="contacts-icon">
+                        <svg class="icon icon-globe ">
+                          <use xlink:href="img/icons-svg/symbol/sprite.svg#globe"></use>
+                        </svg>
+                  </div>
+                  <div class="contacts-info">
+                    <div class="contacts-info__title">соц. сети</div>
+                    <div class="contacts-info__socials"><a href="#"><i class="fab fa-fw fa-facebook"></i></a><a href="#"><i class="fab fa-fw fa-twitter"></i></a><a href="#"><i class="fab fa-fw fa-youtube"></i></a><a href="#"><i class="fab fa-fw fa-telegram"></i></a><a href="#"><i class="fab fa-fw fa-github"></i></a><a href="#"><i class="fab fa-fw fa-btc"></i></a><a href="#"><i class="fab fa-fw fa-reddit"></i></a><a href="#"><i class="fab fa-fw fa-medium"></i></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="contacts-right shadow">
+                <div class="block-header">Обратная связь</div>
+                <div class="contacts-right__body">
+                  <form class="contacts-form">
+                    <input type="text" placeholder="Тема обращения" required class="formitem">
+                    <textarea name="cont-text" rows="5" placeholder="Текст" required class="formitem"></textarea>
+                    <button type="submit" class="button">Отправить</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="buy-popup white-popup-block mfp-hide">
+      <div class="buy-popup__header">
+        <h4>Ожидание платежа</h4>
+        <p>Курс заблокрован на 15 минут 1 ETH: 100.0000 SMART</p>
+      </div>
+      <div class="buy-popup__body">
+        <div class="buy-popup__title"><img src="img/icons-svg/eth.svg" alt="alt" class="buy-popup__icon"><span>Купить <span class="popup-summ">100.000 SMART</span> за <span class="popup-currency">1 ETH</span></span></div>
+        <div class="buy-popup__address">
+          <p>Отправьте 1 ETH на указанный адрес</p>
+          <div class="adreess-val">addr-doritu49493urfkfjoe</div>
+        </div>
+        <div class="buy-popup__code"><img src="img/code.png" alt="alt"></div>
+        <div class="buy-popup__buttons"><a href="#" class="button">
+            <div class="button-addr">addr-doritu49493urfkfjoe</div><span class="copy-addr">Скопировать адрес</span></a><a href="#" class="button">
+            <div class="button-summ">1</div><span class="copy-addr">Скопировать сумму</span></a></div>
+      </div>
+    </div>
+    <script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>
