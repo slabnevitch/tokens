@@ -1675,6 +1675,8 @@ aside {
   .header-tokens {
     text-align: center; }
   .header-lang {
+    padding-right: 40px;
+    font-size: 12px;
     border-left: none; } }
 
 /* Extra Small Devices, Phones */
