@@ -21,7 +21,7 @@ $(function() {
 	});
 // end Accordeon-----------------------------------
 
-	$("form").submit(function() { //Change
+	$(".token-form").submit(function() { //Change
 		$.magnificPopup.open({
 			items: {
 				src: $('.buy-popup')

@@ -14,179 +14,181 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header class="header">
-      <div class="header-logo"><img src="img/logo.jpg" alt="alt"></div>
-      <div class="header-content">
-        <div class="header-tokens"><i class="fas fa-fw fa-gem"></i><span>Ваши токены:</span><span class="header-tokens__val">0.0000 SMART</span></div>
-        <div class="header-nav">
-          <div class="header-user">Пользователь</div>
-          <div class="header-lang">
-            <div class="header-flag header-flag--rus"></div><span class="header-lang__item">Русский</span>
-            <ul class="header-lang__list shadow">
-              <li>
-                <div class="header-flag header-flag--eng"></div><span class="header-lang__item">English</span>
-              </li>
-              <li>
-                <div class="header-flag header-flag--por"></div><span class="header-lang__item">Portuguese</span>
-              </li>
-              <li>
-                <div class="header-flag header-flag--jp"></div><span class="header-lang__item">日本語</span>
-              </li>
-              <li>
-                <div class="header-flag header-flag--fr"></div><span class="header-lang__item">Français</span>
-              </li>
-              <li>
-                <div class="header-flag header-flag--ch"></div><span class="header-lang__item">中国</span>
-              </li>
-              <li>
-                <div class="header-flag header-flag--sk"></div><span class="header-lang__item">한국의</span>
-              </li>
-              <li>
-                <div class="header-flag header-flag--sp"></div><span class="header-lang__item">Español</span>
-              </li>
-              <li>
-                <div class="header-flag header-flag--ger"></div><span class="header-lang__item">Deutsch</span>
-              </li>
-            </ul>
+    <div class="container">
+      <header class="header">
+        <div class="header-logo"><img src="img/logo.jpg" alt="alt"></div>
+        <div class="header-content">
+          <div class="header-tokens"><i class="fas fa-fw fa-gem"></i><span>Ваши токены:</span><span class="header-tokens__val">0.0000 SMART</span></div>
+          <div class="header-nav">
+            <div class="header-user">Пользователь</div>
+            <div class="header-lang">
+              <div class="header-flag header-flag--rus"></div><span class="header-lang__item">Русский</span>
+              <ul class="header-lang__list shadow">
+                <li>
+                  <div class="header-flag header-flag--eng"></div><span class="header-lang__item">English</span>
+                </li>
+                <li>
+                  <div class="header-flag header-flag--por"></div><span class="header-lang__item">Portuguese</span>
+                </li>
+                <li>
+                  <div class="header-flag header-flag--jp"></div><span class="header-lang__item">日本語</span>
+                </li>
+                <li>
+                  <div class="header-flag header-flag--fr"></div><span class="header-lang__item">Français</span>
+                </li>
+                <li>
+                  <div class="header-flag header-flag--ch"></div><span class="header-lang__item">中国</span>
+                </li>
+                <li>
+                  <div class="header-flag header-flag--sk"></div><span class="header-lang__item">한국의</span>
+                </li>
+                <li>
+                  <div class="header-flag header-flag--sp"></div><span class="header-lang__item">Español</span>
+                </li>
+                <li>
+                  <div class="header-flag header-flag--ger"></div><span class="header-lang__item">Deutsch</span>
+                </li>
+              </ul>
+            </div>
+            <div class="header-account"><i class="fas fa-fw fa-user"></i><span class="header-user__login">deh222@yandex.ru</span></div>
           </div>
-          <div class="header-account"><i class="fas fa-fw fa-user"></i><span class="header-user__login">deh222@yandex.ru</span></div>
         </div>
+        <div class="burger"><a href="#" class="toggle-mnu"><span></span></a></div>
+      </header>
+      <!-- Здесь пишем код-->
+      <div class="wrapper">
+        <aside class="sidebar">
+          <ul class="menu menu-main">
+            <li><a href="#"><i class="fas fa-shopping-cart"></i>Покупка токена</a></li>
+            <li><a href="#"><i class="fas fa-briefcase"></i>Мои инвестиции</a></li>
+            <li><a href="#"><i class="fas fa-fw fa-question-circle"></i>Помощь</a></li>
+            <li><a href="#"><i class="fas fa-fw fa-phone-square"></i>Контакты</a></li>
+          </ul>
+        </aside>
+        <main>
+          <div class="tokens-buy">Перед покупкой токенов пройдите <a href="#">верификацию.</a></div>
+          <div class="page-content">
+            <div class="page-content__inner">
+              <h1>Покупка токена</h1>
+              <div class="buy-steps">
+                <div class="buy-steps__title">
+                  <div>этапы</div>
+                  <div>ico</div>
+                </div>
+                <div class="buy-steps__items">
+                  <div class="buy-steps__item active">
+                    <div class="step__icon">
+                          <svg class="icon icon-play-button ">
+                            <use xlink:href="img/icons-svg/symbol/sprite.svg#play-button"></use>
+                          </svg>
+                    </div>
+                    <div class="step-text">
+                      <div class="step-text__title">Private Sale</div>
+                      <div class="step-text__condition">Активно</div>
+                    </div>
+                    <div class="step-num">1</div>
+                  </div>
+                  <div class="buy-steps__item">
+                    <div class="step__icon">
+                          <svg class="icon icon-clock ">
+                            <use xlink:href="img/icons-svg/symbol/sprite.svg#clock"></use>
+                          </svg>
+                    </div>
+                    <div class="step-text">
+                      <div class="step-text__title">Pre ICO</div>
+                      <div class="step-text__condition">Ожидание </div>
+                    </div>
+                    <div class="step-num">2</div>
+                  </div>
+                  <div class="buy-steps__item">
+                    <div class="step__icon">
+                          <svg class="icon icon-clock ">
+                            <use xlink:href="img/icons-svg/symbol/sprite.svg#clock"></use>
+                          </svg>
+                    </div>
+                    <div class="step-text">
+                      <div class="step-text__title">Pre ICO</div>
+                      <div class="step-text__condition">Ожидание </div>
+                    </div>
+                    <div class="step-num">3</div>
+                  </div>
+                </div>
+              </div>
+              <div class="token-info">
+                <div class="token-info__left">
+                  <div class="token-speed">
+                    <div class="token-price">
+                      <div class="token-price__header">Стоимость токена</div>
+                      <div class="token-price__body">
+                        <div class="token-price__item"><span>1 <sup>smart</sup> = </span><span class="token-price__val">0.00100 <sup>ETH</sup></span></div>
+                        <div class="token-price__prize">
+                              <svg class="icon icon-gift ">
+                                <use xlink:href="img/icons-svg/symbol/sprite.svg#gift"></use>
+                              </svg><span>Бонус 20%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="token-currency">
+                    <div class="token-currency__top"><span>Валюта</span>
+                      <div class="token-currency__update">Обновление курсов через <span class="token-currency__update-val">9</span> секунд</div>
+                    </div>
+                    <div class="token-currency__items">
+                      <div class="token-currency__item active">
+                        <div class="token-currency__name">ETH</div>
+                        <div class="token-currency__icon">
+                              <svg class="icon icon-eth ">
+                                <use xlink:href="img/icons-svg/symbol/sprite.svg#eth"></use>
+                              </svg>
+                        </div>
+                        <div class="token-currency__price">743.4540 $</div>
+                      </div>
+                    </div>
+                    <form class="token-form">
+                      <label><span class="label-title">Сумма</span>
+                        <input type="text" placeholder="1" class="formitem"><span class="label-unit">eth</span>
+                      </label>
+                      <label><span class="label-title">smart</span>
+                        <input type="text" placeholder="100,0000" class="formitem"><span class="label-unit">smart</span>
+                      </label>
+                      <button type="submit" class="button">Купить</button>
+                    </form>
+                  </div>
+                </div>
+                <div class="token-info__right">
+                  <div class="counter-top">
+                    <div class="counter-title">СБОРЫ ICO</div>
+                    <div class="counter-val__currency">USD </div>
+                    <div class="counter-val__summy">200 000 </div>
+                  </div>
+                  <div class="counter-bottom">
+                    <div class="counter-slogan">до окончания Private Sale осталось</div>
+                    <div class="counter-val"></div>
+                  </div>
+                  <div class="token-timer">
+                    <div class="token-timer__item token-timer__item--days">
+                      <div>0</div><span>дней</span>
+                    </div><span>:</span>
+                    <div class="token-timer__item token-timer__item--hours">
+                      <div>00</div><span>дней</span>
+                    </div><span>:</span>
+                    <div class="token-timer__item token-timer__item--minutes">
+                      <div>00</div><span>минут</span>
+                    </div><span>:</span>
+                    <div class="token-timer__item token-timer__item--seconds">
+                      <div>00</div><span>секунд</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
       </div>
-      <div class="burger"><a href="#" class="toggle-mnu"><span></span></a></div>
-    </header>
-    <!-- Здесь пишем код-->
-    <div class="wrapper">
-      <aside class="sidebar">
-        <ul class="menu menu-main">
-          <li><a href="#"><i class="fas fa-shopping-cart"></i>Покупка токена</a></li>
-          <li><a href="#"><i class="fas fa-briefcase"></i>Мои инвестиции</a></li>
-          <li><a href="#"><i class="fas fa-fw fa-question-circle"></i>Помощь</a></li>
-          <li><a href="#"><i class="fas fa-fw fa-phone-square"></i>Контакты</a></li>
-        </ul>
-      </aside>
-      <main>
-        <div class="tokens-buy">Перед покупкой токенов пройдите <a href="#">верификацию.</a></div>
-        <div class="page-content">
-          <div class="page-content__inner">
-            <h1>Покупка токена</h1>
-            <div class="buy-steps">
-              <div class="buy-steps__title">
-                <div>этапы</div>
-                <div>ico</div>
-              </div>
-              <div class="buy-steps__items">
-                <div class="buy-steps__item active">
-                  <div class="step__icon">
-                        <svg class="icon icon-play-button ">
-                          <use xlink:href="img/icons-svg/symbol/sprite.svg#play-button"></use>
-                        </svg>
-                  </div>
-                  <div class="step-text">
-                    <div class="step-text__title">Private Sale</div>
-                    <div class="step-text__condition">Активно</div>
-                  </div>
-                  <div class="step-num">1</div>
-                </div>
-                <div class="buy-steps__item">
-                  <div class="step__icon">
-                        <svg class="icon icon-clock ">
-                          <use xlink:href="img/icons-svg/symbol/sprite.svg#clock"></use>
-                        </svg>
-                  </div>
-                  <div class="step-text">
-                    <div class="step-text__title">Pre ICO</div>
-                    <div class="step-text__condition">Ожидание </div>
-                  </div>
-                  <div class="step-num">2</div>
-                </div>
-                <div class="buy-steps__item">
-                  <div class="step__icon">
-                        <svg class="icon icon-clock ">
-                          <use xlink:href="img/icons-svg/symbol/sprite.svg#clock"></use>
-                        </svg>
-                  </div>
-                  <div class="step-text">
-                    <div class="step-text__title">Pre ICO</div>
-                    <div class="step-text__condition">Ожидание </div>
-                  </div>
-                  <div class="step-num">3</div>
-                </div>
-              </div>
-            </div>
-            <div class="token-info">
-              <div class="token-info__left">
-                <div class="token-speed">
-                  <div class="token-price">
-                    <div class="token-price__header">Стоимость токена</div>
-                    <div class="token-price__body">
-                      <div class="token-price__item"><span>1 <sup>smart</sup> = </span><span class="token-price__val">0.00100 <sup>ETH</sup></span></div>
-                      <div class="token-price__prize">
-                            <svg class="icon icon-gift ">
-                              <use xlink:href="img/icons-svg/symbol/sprite.svg#gift"></use>
-                            </svg><span>Бонус 20%</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="token-currency">
-                  <div class="token-currency__top"><span>Валюта</span>
-                    <div class="token-currency__update">Обновление курсов через <span class="token-currency__update-val">9</span> секунд</div>
-                  </div>
-                  <div class="token-currency__items">
-                    <div class="token-currency__item active">
-                      <div class="token-currency__name">ETH</div>
-                      <div class="token-currency__icon">
-                            <svg class="icon icon-eth ">
-                              <use xlink:href="img/icons-svg/symbol/sprite.svg#eth"></use>
-                            </svg>
-                      </div>
-                      <div class="token-currency__price">743.4540 $</div>
-                    </div>
-                  </div>
-                  <form class="token-form">
-                    <label><span class="label-title">Сумма</span>
-                      <input type="text" placeholder="1" class="formitem"><span class="label-unit">eth</span>
-                    </label>
-                    <label><span class="label-title">smart</span>
-                      <input type="text" placeholder="100,0000" class="formitem"><span class="label-unit">smart</span>
-                    </label>
-                    <button type="submit" class="button">Купить</button>
-                  </form>
-                </div>
-              </div>
-              <div class="token-info__right">
-                <div class="counter-top">
-                  <div class="counter-title">СБОРЫ ICO</div>
-                  <div class="counter-val__currency">USD </div>
-                  <div class="counter-val__summy">200 000 </div>
-                </div>
-                <div class="counter-bottom">
-                  <div class="counter-slogan">до окончания Private Sale осталось</div>
-                  <div class="counter-val"></div>
-                </div>
-                <div class="token-timer">
-                  <div class="token-timer__item token-timer__item--days">
-                    <div>0</div><span>дней</span>
-                  </div><span>:</span>
-                  <div class="token-timer__item token-timer__item--hours">
-                    <div>00</div><span>дней</span>
-                  </div><span>:</span>
-                  <div class="token-timer__item token-timer__item--minutes">
-                    <div>00</div><span>минут</span>
-                  </div><span>:</span>
-                  <div class="token-timer__item token-timer__item--seconds">
-                    <div>00</div><span>секунд</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </main>
+      <footer class="footer">
+        <nav><a href="#">Сайт ICO</a><a href="#">White Paper</a><a href="#">Пользовательское соглашение</a><a href="#">Согласие на обработку персональных данных</a></nav>
+      </footer>
     </div>
-    <footer class="footer">
-      <nav><a href="#">Сайт ICO</a><a href="#">White Paper</a><a href="#">Пользовательское соглашение</a><a href="#">Согласие на обработку персональных данных</a></nav>
-    </footer>
     <div class="buy-popup white-popup-block mfp-hide">
       <div class="buy-popup__header">
         <h4>Ожидание платежа</h4>
