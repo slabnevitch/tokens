@@ -1645,7 +1645,15 @@ aside {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .header {
-    display: block; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
     .header-logo {
       background-color: transparent;
       padding: 10px; }
